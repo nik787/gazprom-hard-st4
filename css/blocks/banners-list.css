@@ -1,0 +1,14 @@
+.banners-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.banners-list__item {
+    width: calc(50% - 16px);
+}
+
+.banners-list--small-card .banners-list__item {
+    width: calc(25% - 24px);
+}
