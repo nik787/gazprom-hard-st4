@@ -73,7 +73,7 @@
   background-color: #FFFFFF;
 }
 
-.banner__img {
+.banners__img {
   width: 280px;
   height: 180px;
 }
@@ -100,7 +100,7 @@
   line-height: 20px;
 }
 
-.banners--sm .banner__img {
+.banners--sm .banners__img {
   width: 210px;
   height: 135px;
   margin-top: auto;
