@@ -1,5 +1,8 @@
 .banners {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   gap: 20px;
   min-height: 300px;
   background-color: #E7EFFF;
@@ -7,10 +10,16 @@
   padding: 32px;
 }
 
+.banners__main-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .banners__wrapper {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
   gap: 12px;
 }
 
@@ -79,10 +88,15 @@
 }
 
 .banners--sm {
-  gap: 8px;
   min-height: 400px;
   text-align: center;
+  align-items: center;
   padding: 32px 20px 20px;
+}
+
+.banners--sm .banners__main-content {
+  flex-direction: column;
+  align-items: center;
 }
 
 .banners--sm .banners__wrapper {
@@ -103,9 +117,5 @@
 .banners--sm .banners__img {
   width: 210px;
   height: 135px;
-  margin-top: auto;
-}
-
-.banners--sm .banners__link {
   margin-top: auto;
 }
